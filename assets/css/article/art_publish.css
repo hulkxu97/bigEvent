@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f3f5;
+}
+
+body {
+  padding: 15px;
+}
+
+.container {
+  width: 400px;
+  height: 280px;
+  margin-right: 15px;
+}
+
+.container img {
+  max-width: 400px; /* This rule is very important, please do not ignore this! */
+  max-height: 280px;
+}
+
+.preview {
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cropper-container {
+  display: flex;
+}
+
+.right-box {
+  text-align: center;
+}
